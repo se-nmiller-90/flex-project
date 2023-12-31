@@ -1,3 +1,31 @@
 body {
     display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.container1 {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+}
+
+.container2 {
+    display: flex;
+    background-color: #eee;
+}
+
+.container3 {
+    display: flex;
+    background-color: #e5e7eb;
+}
+
+.footer {
+    display: flex;
 }

@@ -1,5 +1,6 @@
 body,
 .about,
+.box-head,
 .container2 {
     display: flex;
     flex-direction: column;
@@ -10,10 +11,12 @@ body,
 .links,
 .logo,
 .info,
+.box,
+.box-cont,
 .container3,
 .quote,
 .footer,
-.box,
+.sign-up,
 img {
     display: flex;
 }
@@ -27,12 +30,14 @@ img {
 .logo {
     font-size: 24px;
     color: #f9faf8;
+    margin: 0 32px;
 }
 
 .links {
     gap: 16px;
-    margin: 8px;
+    margin: 0 32px;
     justify-content: end;
+    align-items: center;
 }
 
 .container1 {
@@ -79,19 +84,37 @@ img {
 }
 
 .footer {
-    align-items: center;
-    justify-content: space-around;
     margin: 64px;
 }
 
 .box {
-    background-color: rgb(0, 185, 241);
+    background-color: #3882f6;
     color: #eee;
-    min-height: fit-content;
-    justify-content: space-around;
-    padding: 64px;
-    margin: 8px;
+    width: 1000px;
     border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+.box-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-head {
+    font-size: 24px;
+}
+
+.box-cont {
+    font-size: 16px;
+}
+
+.sign-up {
+    margin: 32px 0;
+}
+
+.sign-up2 {
+    margin: 64px;
 }
 
 
@@ -99,4 +122,17 @@ img {
     padding: 8px;
     max-height: 256px;
     border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+button {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    border-radius: 10px;
+    padding: 4px 16px;
+    border-color: #f9faf8;
 }

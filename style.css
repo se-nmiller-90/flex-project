@@ -109,6 +109,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 32px;
 }
 
 .box-head {
